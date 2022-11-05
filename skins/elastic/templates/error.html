@@ -1,21 +1,16 @@
 <roundcube:include file="includes/layout.html" />
 
-<roundcube:if condition="!env:framed && !env:extwin" />
-	<roundcube:include file="includes/menu.html" />
-	<div id="layout-content" class="selected" role="main">
-		<div class="header">
-			<a class="button icon task-menu-button" href="#menu"><span class="inner"><roundcube:label name="menu" /></span></a>
-			<span class="header-title"></span>
-		</div>
-		<div class="frame-content scroller">
-<roundcube:else />
-	<div id="layout-content" class="selected" role="main">
-		<div class="frame-content scroller">
-<roundcube:endif />
+<h1 class="voice"><roundcube:label name="about" /></h1>
 
-$__page_content
-
-		</div>
+<div class="frame-content">
+	<roundcube:object name="aboutcontent" />
+	<h2 class="sysname">Roundcube Webmail <roundcube:object name="version" /></h2>
+	<p class="copyright"><roundcube:object name="copyright" /></p>
+	<p class="license"><roundcube:object name="license" /></p>
+	<div class="readtext">
+		<h3><roundcube:label name="installedplugins" /></h3>
+		<roundcube:object name="pluginlist" id="pluginlist" class="records-table" />
 	</div>
+</div>
 
 <roundcube:include file="includes/footer.html" />

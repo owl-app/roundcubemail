@@ -268,6 +268,24 @@ body {
     }
 }
 
+.unauthorized-page {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20%;
+
+    .content {
+        h3{
+            color: @color-error;
+        }
+
+        width: 30%;
+        margin:0 auto;
+        border:1px solid @color-black-shade-bg;
+        padding: 20px;
+    }
+}
+
 @media screen and (max-width: @screen-width-large) {
     #layout-sidebar,
     #layout-list {

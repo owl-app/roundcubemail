@@ -16,6 +16,8 @@
 
 $messages['errortitle']  = 'Wystąpił błąd!';
 $messages['loginfailed']  = 'Błąd logowania!';
+$messages['accessdenied']  = 'Brak uprawnień!';
+$messages['infounauthorized']  = 'Proszę się skontaktować z administratorem systemu';
 $messages['cookiesdisabled'] = 'Twoja przeglądarka nie obsługuje ciasteczek!';
 $messages['sessionerror'] = 'Błąd sesji bądź sesja wygasła!';
 $messages['cookiesmismatch'] = 'Niezgodność ciasteczek. Proszę usunąć ciasteczka zapisane w przeglądarce.';

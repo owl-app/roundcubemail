@@ -17,6 +17,8 @@
 $messages = [];
 $messages['errortitle']  = 'An error occurred!';
 $messages['loginfailed']  = 'Login failed.';
+$messages['accessdenied']  = 'Access denied!';
+$messages['infounauthorized']  = 'Please contact system administrator';
 $messages['cookiesdisabled'] = 'Your browser does not accept cookies.';
 $messages['sessionerror'] = 'Your session is invalid or expired.';
 $messages['cookiesmismatch'] = 'Cookie mismatch detected. Please, clear your browser\'s cookies.';
